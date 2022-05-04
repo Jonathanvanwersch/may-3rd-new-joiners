@@ -14,7 +14,7 @@ const Instructions = () => {
           mouse{" "}
         </p>{" "}
         <p class="text-gray-400 text-s mb-6">
-          Can you guess all five correctly?
+          You will be timed and you only have one go, so choose wisely!
         </p>
         <button class="px-3 py-2 text-md font-bold rounded border-[#0967B3]-3 border-3 text-[#0967B3] hover:scale-105">
           Click to play
