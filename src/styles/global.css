@@ -7,10 +7,10 @@
     @apply h-full bg-[#EFF2FD] m-0;
   }
   body {
-    @apply bg-[#EFF2FD] m-0 p-20 text-white flex items-center justify-center h-full;
+    @apply bg-[#EFF2FD] m-0 p-8 h-full;
   }
   h1 {
-    @apply text-4xl font-bold;
+    @apply text-3xl md:text-4xl font-bold;
   }
   h2 {
     @apply text-xl font-bold;
