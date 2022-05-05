@@ -34,11 +34,11 @@ export const descriptionCardData = [
     name: "Sebastian Bending",
   },
   {
-    role: "Front End Engineer (Gaming)",
+    role: "Front End Engineer",
     from: "Netherlands/Egypt (but grew up all over the place)",
-    hobbies: "Sports and exercise, cooking, reading, podcasts, programming",
+    hobbies: "Running, football, hiking, reading, podcasts, programming",
     food: "Mediterranean cuisine",
-    fact: "I've lived in six different countries ",
+    fact: "I've lived in six different countries",
     name: "Jonathan van Wersch",
   },
 ];
@@ -52,7 +52,7 @@ function DescriptionCard({ role, from, hobbies, food, fact }) {
   );
 
   return (
-    <div className="shadow-2xl rounded-2xl md:w-[320px] bg-white overflow-hidden p-3  flex flex-col h-full text-gray-800 text-left gap-2 min-h-[268px]">
+    <div className="shadow-2xl rounded-2xl md:w-[260px] max-w-[300px] bg-white overflow-hidden p-3 py-4 justify-between  flex flex-col h-full text-gray-800 text-left gap-2 min-h-[300px]">
       {titleAnswer("Role", role)}
       {titleAnswer("From", from)}
       {titleAnswer("Hobbies/Interests", hobbies)}

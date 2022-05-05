@@ -11,10 +11,10 @@ const finishMessage = {
 
 function FinishedPage({ correctAnswers }) {
   return (
-    <>
+    <div className="text-center">
       <h1 className="mb-8">{`You got ${correctAnswers} / 5`}</h1>{" "}
       <h2>{finishMessage[correctAnswers]}</h2>
-    </>
+    </div>
   );
 }
 

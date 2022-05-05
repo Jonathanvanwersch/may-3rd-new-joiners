@@ -15,13 +15,11 @@ export const pictureCardData = [
 
 function PictureCard({ name, image }) {
   return (
-    <div className="shadow-2xl rounded-2xl w-[200px] bg-white overflow-hidden flex flex-col items-center cursor-pointer h-[264px]">
-      <img
-        className="object-cover w-full h-full max-h-[210px]"
-        alt={name}
-        src={image}
-      />
-      <h2 className="text-gray-800 p-4 text-sm">{name}</h2>
+    <div className="shadow-2xl w-full rounded-2xl md:w-[260px] relative bg-white overflow-hidden h-[340px] md:h-[300px]  max-w-[300px]">
+      <img className="object-cover w-full h-full" alt={name} src={image} />
+      <h2 className="text-gray-800 p-4 text-sm absolute bottom-0 right-0 left-0 bg-white text-center">
+        {name}
+      </h2>
     </div>
   );
 }
