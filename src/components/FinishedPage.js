@@ -16,9 +16,9 @@ function FinishedPage({ correctAnswers }) {
     <div className="flex flex-col text-center gap-8">
       <h1>{`You got ${correctAnswers} / 5`}</h1>{" "}
       <h2>{finishMessage[correctAnswers]}</h2>
-      <Button>
-        <Link to="/profiles">View correct answers</Link>
-      </Button>
+      <Link to="/profiles">
+        <Button>View correct answers </Button>
+      </Link>
     </div>
   );
 }

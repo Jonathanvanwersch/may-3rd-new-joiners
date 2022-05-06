@@ -6,7 +6,6 @@ import Tom from "../images/Tom.jpg";
 import Sebastian from "../images/Sebastian.jpg";
 import Andrew from "../images/Andrew.jpg";
 import Jonathan from "../images/Jonathan.jpg";
-import { Link } from "gatsby";
 
 const profileData = [
   {
