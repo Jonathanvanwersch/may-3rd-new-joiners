@@ -16,7 +16,7 @@ const Instructions = ({ startGame }) => {
           another description.
         </p>{" "}
         <p className="text-gray-400 text-base mb-6">
-          Can you guess all five correctly?
+          Can you guess all six correctly?
         </p>
         <Button onClick={startGame}>Click to play</Button>
       </div>

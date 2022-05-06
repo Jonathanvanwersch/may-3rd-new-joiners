@@ -36,10 +36,19 @@ export const descriptionCardData = [
   {
     role: "Front End Engineer",
     from: "Netherlands/Egypt (but grew up all over the place)",
-    hobbies: "Running, football, hiking, reading, podcasts, programming",
+    hobbies:
+      "Running, football, hiking, reading, podcasts, travelling, and programming",
     food: "Mediterranean cuisine",
     fact: "I've lived in six different countries",
     name: "Jonathan van Wersch",
+  },
+  {
+    role: "IT Support Analyst",
+    from: "London",
+    hobbies: "Video games, concerts, dining out, and travelling",
+    food: "Ramen, or chicken wings with mac and cheese",
+    fact: "I lived in St. Lucia for one year",
+    name: "Tyrone Lucambe",
   },
 ];
 

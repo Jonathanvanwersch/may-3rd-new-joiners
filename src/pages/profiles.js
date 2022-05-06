@@ -6,6 +6,7 @@ import Tom from "../images/Tom.jpg";
 import Sebastian from "../images/Sebastian.jpg";
 import Andrew from "../images/Andrew.jpg";
 import Jonathan from "../images/Jonathan.jpg";
+import Tyrone from "../images/Tyrone.jpg";
 
 const profileData = [
   {
@@ -52,6 +53,15 @@ const profileData = [
     hobbies: "Skiing, cooking, refereeing two small children",
     food: "Pasta",
     fact: "My cousin is Andrew Ridgeley (the 'other one' from 80s pop group Wham!)",
+  },
+  {
+    role: "IT Support Analyst",
+    from: "London",
+    hobbies: "Video games, concerts, dining out, and travelling",
+    food: "Ramen, or chicken wings with mac and cheese",
+    fact: "I lived in St. Lucia for one year",
+    name: "Tyrone Lucambe",
+    image: Tyrone,
   },
 ];
 

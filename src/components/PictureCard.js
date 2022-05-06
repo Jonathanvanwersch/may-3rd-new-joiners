@@ -4,6 +4,7 @@ import Tom from "../images/Tom.jpg";
 import Sebastian from "../images/Sebastian.jpg";
 import Andrew from "../images/Andrew.jpg";
 import Jonathan from "../images/Jonathan.jpg";
+import Tyrone from "../images/Tyrone.jpg";
 
 export const pictureCardData = [
   { name: "Jonathan van Wersch", image: Jonathan },
@@ -11,6 +12,7 @@ export const pictureCardData = [
   { name: "Andrew Duncan", image: Andrew },
   { name: "Sebastian Bending", image: Sebastian },
   { name: "Sarah Moger", image: Sarah },
+  { name: "Tyrone Lucambe", image: Tyrone },
 ];
 
 function PictureCard({ name, image }) {
