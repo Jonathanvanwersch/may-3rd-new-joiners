@@ -1,4 +1,6 @@
+import { Link } from "gatsby";
 import React from "react";
+import Button from "./Button";
 
 const finishMessage = {
   0: "We're really hurt",
@@ -11,9 +13,12 @@ const finishMessage = {
 
 function FinishedPage({ correctAnswers }) {
   return (
-    <div className="text-center">
-      <h1 className="mb-8">{`You got ${correctAnswers} / 5`}</h1>{" "}
+    <div className="flex flex-col text-center gap-8">
+      <h1>{`You got ${correctAnswers} / 5`}</h1>{" "}
       <h2>{finishMessage[correctAnswers]}</h2>
+      <Button>
+        <Link to="/profiles">View correct answers</Link>
+      </Button>
     </div>
   );
 }
